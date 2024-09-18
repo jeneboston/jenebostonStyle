@@ -1,4 +1,4 @@
-import React from 'react'
+
 interface Props {
     brand: string;
     color: string;

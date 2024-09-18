@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import style from './ProductPage.module.css'
 import Product from '../Products/types/Product'
 import {Link, useParams} from 'react-router-dom'

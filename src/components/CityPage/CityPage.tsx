@@ -1,4 +1,4 @@
-import React from "react";
+
 import style from "./CityPage.module.css";
 
 function CityPage(): JSX.Element {
