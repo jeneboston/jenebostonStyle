@@ -1,0 +1,26 @@
+/* src/components/gallery/gallery.module.css */
+.galleryContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .gridItem {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .gridItem:hover {
+    transform: scale(1.05);
+  }
+  
