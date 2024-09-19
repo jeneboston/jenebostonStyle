@@ -17,11 +17,13 @@ import Todo from './components/TodoList/Todo';
 import CatCard from './components/CatCard/CatCard';
 import BitcoinPriceComponent from './components/BitcoinPriceComponent/BitcoinPriceComponent';
 import Calculator from './components/Calculator/Calculator';
+import Gallery from './components/gallery/Gallery';
 
 function App():JSX.Element {
   return (
   <Routes>
     <Route path="/" element={<Layout />}>
+    <Route index element={<Gallery />} />
     <Route path="/activity" element={<Activity />} />
     <Route path="/counter" element={<Counter />} />
     <Route path="/cityPage" element={<CityPage />} />
