@@ -7,6 +7,11 @@ export default function NavBar(): JSX.Element {
     <nav className={style.navigation}>
       <ul className={style.list}>
         <li className={style.listElement}>
+          <NavLink to="/gallery" className={style.link}>
+            Gallery
+          </NavLink>
+        </li>
+        <li className={style.listElement}>
           <NavLink to="/coctail" className={style.link}>
             Coctail
           </NavLink>

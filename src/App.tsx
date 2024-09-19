@@ -23,7 +23,7 @@ function App():JSX.Element {
   return (
   <Routes>
     <Route path="/" element={<Layout />}>
-    <Route index element={<Gallery />} />
+    <Route path='/Gallery' element={<Gallery />} />
     <Route path="/activity" element={<Activity />} />
     <Route path="/counter" element={<Counter />} />
     <Route path="/cityPage" element={<CityPage />} />
